@@ -593,24 +593,6 @@ The project demonstrates how modern SOC environments combine **Intrusion Detecti
 
 ---
 
-# 📂 Repository Structure
-
-```text
-Ransomware-Simulation-and-Defense-Lab/
-│
-├── attack.py              # Simulates ransomware encryption
-├── decrypt.py             # Restores encrypted files
-├── soar_daemon.py         # Automated SOAR response engine
-├── local.rules            # Custom Snort detection rule
-├── snort.lua              # Snort configuration
-├── screenshots/           # Project screenshots
-├── diagrams/              # Architecture and UML diagrams
-├── docs/                  # Project report / documentation
-├── requirements.txt       # Python dependencies
-├── LICENSE
-└── README.md
-```
-
 ---
 
 # 📄 Core Files Explained
@@ -630,11 +612,6 @@ Ransomware-Simulation-and-Defense-Lab/
 
 This section explains how to recreate the complete **Ransomware Simulation and Defense Lab** from scratch. The lab consists of three virtual machines connected through an isolated Host-Only network, ensuring that the ransomware simulation remains completely contained and safe.
 
-> **⚠️ Disclaimer**
->
-> This project is developed **strictly for educational and research purposes**. Execute it only inside an isolated virtual environment. Never run the simulation on a production machine or a network connected to the Internet.
-
----
 
 # 📋 Prerequisites
 
@@ -699,13 +676,6 @@ Example IP configuration:
 
 ---
 
-# 📦 Clone the Repository
-
-```bash
-git clone https://github.com/your-username/Ransomware-Simulation-and-Defense-Lab.git
-
-cd Ransomware-Simulation-and-Defense-Lab
-```
 
 ---
 
@@ -837,23 +807,6 @@ scp decrypt.py Lab@192.168.1.60:C:/RansomwareLab/
 
 ---
 
-# 📁 Repository Structure
-
-```text
-Ransomware-Simulation-and-Defense-Lab/
-│
-├── attack.py
-├── decrypt.py
-├── soar_daemon.py
-├── local.rules
-├── snort.lua
-├── requirements.txt
-├── diagrams/
-├── screenshots/
-├── docs/
-├── LICENSE
-└── README.md
-```
 
 ---
 
